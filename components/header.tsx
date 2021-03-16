@@ -1,5 +1,5 @@
 function Header() {
-  return <header>Header</header>
+  return <header className="my-8 text-2xl font-bold text-primary">SQUIZ</header>
 }
 
 export default Header
