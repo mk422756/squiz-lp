@@ -4,6 +4,7 @@ import Header from '../components/header'
 import Button from '../components/button'
 import Headline from '../components/headline'
 import Section from '../components/section'
+import Reason from '../components/reason'
 
 export default function Home() {
   return (
@@ -77,6 +78,21 @@ export default function Home() {
         <Section>
           <div className="pt-16">
             <Headline>SQUIZなら簡単です</Headline>
+          </div>
+          <div className="pt-9">
+            <Reason index={1} imageSrc="/images/reason1.svg">
+              問題の作成から販売まで<br></br>全てオンラインで完結します！
+            </Reason>
+          </div>
+          <div className="pt-9">
+            <Reason index={2} imageSrc="/images/reason2.svg">
+              書類位提出不要で<br></br>会員登録後にすぐ始められます！
+            </Reason>
+          </div>
+          <div className="pt-9">
+            <Reason index={3} imageSrc="/images/reason3.svg">
+              クレジットカード決済で<br></br>販売も簡単に行えます！
+            </Reason>
           </div>
         </Section>
       </main>
