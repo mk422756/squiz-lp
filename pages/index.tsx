@@ -34,6 +34,21 @@ export default function Home() {
         <meta name="msapplication-config" content="/browserconfig.xml" />
         <meta name="msapplication-TileColor" content="#63B9ED" />
         <meta name="theme-color" content="#63B9ED"></meta>
+        <meta
+          name="description"
+          content="SQUIZは、問題集の作成と販売を行うことができるサービスです。欲しい問題集を見つけて購入することができます。購入した問題はすぐに学習を開始でき、PCでもスマホでもどこでも学習をすることができます。また、様々なジャンルの問題を簡単に作成することができ、販売も簡単に行えます。"
+        />
+        <meta property="og:title" content="SQUIZ" />
+        <meta property="og:type" content="product" />
+        <meta property="og:url" content="https://lp.squiz.page" />
+        <meta
+          property="og:image"
+          content="https://lp.squiz.page//images/top.svg"
+        />
+        <meta
+          property="og:description"
+          content="SQUIZは、問題集の作成と販売を行うことができるサービスです。欲しい問題集を見つけて購入することができます。購入した問題はすぐに学習を開始でき、PCでもスマホでもどこでも学習をすることができます。また、様々なジャンルの問題を簡単に作成することができ、販売も簡単に行えます。"
+        />
       </Head>
       <Layout>
         <Header></Header>
