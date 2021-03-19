@@ -142,7 +142,7 @@ export default function Home() {
               <div className="mt-8">
                 <QA
                   q="どうやって問題集をつくりますか？"
-                  a="Webサイトで作成します。現在、択一式問題と複数選択回答に対応しています。"
+                  a="Webサイトで作成します。現在、4択問題を作成できます。他の形式も今後拡充していく予定です。"
                 ></QA>
               </div>
               <div className="mt-8">
