@@ -47,7 +47,9 @@ export default function Home() {
               </p>
               <div className="mt-4">
                 <Button>
-                  <a href="https://google.com">今すぐ事前登録へ</a>
+                  <a href="https://forms.gle/w3w66xrtvc1e4wan9">
+                    今すぐ事前登録へ
+                  </a>
                 </Button>
               </div>
             </div>
@@ -129,7 +131,9 @@ export default function Home() {
               </div>
               <div className="mt-4 text-center">
                 <Button>
-                  <a href="https://google.com">今すぐ事前登録へ</a>
+                  <a href="https://forms.gle/w3w66xrtvc1e4wan9">
+                    今すぐ事前登録へ
+                  </a>
                 </Button>
               </div>
             </div>
