@@ -101,18 +101,19 @@ export default function Home() {
                 <Image
                   src="/images/screenshot1.svg"
                   alt="スクリーンショット1"
-                  width={150}
-                  height={346}
+                  width={155}
+                  height={351}
                 ></Image>
               </div>
-              <div className="inline-block ml-4 align-middle">
+              <div className="inline-block ml-2 align-middle">
                 <Image
                   src="/images/screenshot2.svg"
                   alt="スクリーンショット2"
-                  width={150}
-                  height={305}
+                  width={155}
+                  height={310}
                 ></Image>
               </div>
+              <p className="text-xs text-gray_2 mt-4">画像は開発中のものです</p>
             </div>
           </Section>
           <Section>
