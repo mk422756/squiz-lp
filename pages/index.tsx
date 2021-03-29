@@ -63,18 +63,18 @@ export default function Home() {
               ></Image>
             </div>
             <div className="mt-8">
-              <h1 className="text-3xl font-semibold text-gray_1">
+              <h1 className="text-3xl font-semibold text-gray_1 text-center">
                 問題集を作って、
                 <br />
                 販売してみませんか？
               </h1>
-              <p className="mt-6 text-md text-text text-gray_2 leading-6">
+              <p className="mt-6 text-md text-text text-gray_2 leading-6 text-center">
                 SQUIZは問題集を作成して販売できます。
                 <br />
                 あなたの得意なことを問題にしてみましょう！
               </p>
             </div>
-            <div className="mt-8 text-center">
+            <div className="mt-20 text-center">
               <p className="text-lg font-semibold text-gray_1">
                 事前登録いただくと、
                 <br />
@@ -94,7 +94,7 @@ export default function Home() {
               <Headline>問題集を作ってみましょう!</Headline>
             </div>
             <div className="mt-10 text-text text-gray_2 leading-6">
-              SQUIZではあなたのスキルや知識を活かして収入を得ることができます。空いた時間をうまく活用したい、副業収入がほしい、でも仕事を請け負ったり、複雑なことはしたくない。SQUIZでは好きな時間に自分のペースで問題を作成して販売することができます。
+              SQUIZではスキルや知識を活かして収入を得ることができます。空いた時間を活用したい、副業収入がほしい、でも仕事を請け負ったり、複雑なことはしたくない。SQUIZでは好きな時間に自分のペースで問題を作成して販売することができます。
             </div>
             <div className="mt-8 text-center pb-16">
               <div className="inline-block align-middle">
@@ -160,7 +160,7 @@ export default function Home() {
               <div className="mt-8">
                 <QA
                   q="手数料はどれくらいですか？"
-                  a="15%です。例えば1000円で問題集を販売した場合、販売した方は850円を受け取ることができます。"
+                  a="販売価格の15%です。例えば1000円で問題集を販売した場合、販売した方は850円を受け取ることができます。"
                 ></QA>
               </div>
             </div>

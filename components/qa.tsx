@@ -8,13 +8,16 @@ function QA({q, a}: Props) {
     <div>
       <table className="table-fixed">
         <tbody>
-          <tr>
+          <tr className="border-b border-primary border-opacity-90">
             <td className="w-8 text-2xl text-primary font-semibold align-middle">
               Q
             </td>
             <td className="ml-2 text-gray_1 font-semibold align-middle">{q}</td>
           </tr>
-          <tr className="bg-emerald-200">
+          <tr>
+            <td height="8"></td>
+          </tr>
+          <tr>
             <td valign="top" className="w-8 text-2xl text-accent font-semibold">
               A
             </td>
